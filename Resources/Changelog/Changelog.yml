@@ -2937,6 +2937,7 @@ Entries:
 - author: EmoGarbage404
   changes:
   - {message: Cyborgs can toggle their flashlights again., type: Fix}
+  - {message: Fixed access while riding vehicles and mechs., type: Fix}
   id: 4952
   time: '2023-10-04T14:30:11.0000000+00:00'
 - author: nmajask
@@ -2953,8 +2954,9 @@ Entries:
   - {message: Added Mindshields, type: Add}
   id: 4954
   time: '2023-10-05T01:47:33.0000000+00:00'
-- author: EmoGarbage404
+- author: router
   changes:
-  - {message: Fixed access while riding vehicles and mechs., type: Fix}
+  - {message: "The Nanotrasen Material Science division has resolved our previously leaky pipes into a form that can withstand nuclear fusion, occuring at ~200000K with pure tritium. Critical temperatures depend on mole count.", type: Add}
+  - {message: "Galactic stockpiles are short on Helium-4, which will be bought at an astounding price of 40 spesos per mole.", type: Add}
   id: 4955
-  time: '2023-10-05T09:12:41.0000000+00:00'
+  time: '2023-10-06T20:30:00.0000000+00:00'
