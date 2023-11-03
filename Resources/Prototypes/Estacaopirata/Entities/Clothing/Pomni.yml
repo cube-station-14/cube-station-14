@@ -1,0 +1,54 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPomni
+  name:  Digital Jester
+  description: Be happy! You are trapped in a digital circus.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/pomni.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/pomni.rsi
+
+- type: entity
+  parent: ClothingShoesClown
+  id: ClothingShoesPomni
+  name: Digital shoes
+  description: Step forward without looking back! Try to accept the current situation.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Shoes/pomni.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Shoes/pomni.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepJester
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingHeadMaskPomni
+  name: Digital mask
+  description: Look around and don't go crazy! Everything is so surreal.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Mask/pomni.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Mask/pomni.rsi
+  - type: Tag
+    tags:
+    - ClownMask
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsGlovesPomni
+  name: Digital gloves
+  description: Open every door you can! Find a way out of this digital chaos.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Hands/Gloves/pomni.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Hands/Gloves/pomni.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberColor: fibers-red-and-blue
